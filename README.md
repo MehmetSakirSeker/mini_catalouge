@@ -1,16 +1,36 @@
-# mini_catalouge
+# Mini Katalog Uygulaması
 
-A new Flutter project.
+## 🚀 Geliştirici
+* **Mehmet Şakir Şeker**
+* **Portfolyo:** [mehmetsakirseker.github.io/Portfolio/](https://mehmetsakirseker.github.io/Portfolio/)
 
-## Getting Started
+## Kısa Açıklama
+Bu proje, kullanıcıların ürünleri listeleyebildiği, ürün detaylarına bakabildiği ve seçtikleri ürünleri sepete ekleyebildiği temel bir e-ticaret / mini katalog uygulamasıdır. Uygulama içerisinde Ana Ekran (Home), Detay Ekranı (Detail) ve Sepet Ekranı (Cart) olmak üzere temel sayfalar ve yönlendirmeler (routing) bulunmaktadır. 
 
-This project is a starting point for a Flutter application.
+## Kullanılan Flutter Sürümü
+- **Dart SDK:** `^3.7.0`
+- **Flutter SDK:** `^3.29.0`
 
-A few resources to get you started if this is your first Flutter project:
+## Çalıştırma Adımları
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Bağımlılıkları Yükleyin:**
+   Terminal veya komut satırından proje dizinine gidin ve gerekli paketleri indirin:
+   ```bash
+   flutter pub get
+   ```
+
+2. **Uygulamayı Çalıştırın:**
+   Bağlı bir cihazda (fiziksel telefon, emülatör veya web tarayıcı) uygulamayı başlatmak için:
+   ```bash
+   flutter run
+   ```
+
+3. **(Opsiyonel) Temizleme:**
+   Eğer derleme ile ilgili bir sorun yaşarsanız projeyi temizleyip tekrar çalıştırabilirsiniz:
+   ```bash
+   flutter clean
+   flutter pub get
+   flutter run
+   ```
